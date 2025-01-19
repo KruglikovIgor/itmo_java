@@ -1,15 +1,15 @@
 package lab_2;
 
-public class bike {
+public class Bike {
     String name;
     String model;
     double engineCapacity;
     double weight;
 
-    public bike() {
+    public Bike() {
     }
 
-    public bike(String name, String model, double engineCapacity, double weight) {
+    public Bike(String name, String model, double engineCapacity, double weight) {
         this.name = name;
         this.model = model;
         this.engineCapacity = engineCapacity;

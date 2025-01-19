@@ -1,6 +1,6 @@
 package lab_2;
 
-public class calculator {
+public class Calculator {
     public static int add(int x, int y) {
         return (x+y);
     }
