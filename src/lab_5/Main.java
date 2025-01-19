@@ -14,10 +14,12 @@ public class Main {
         String text2="Live not on evil";
         System.out.println("Текст является палиндромом: "+printlab_5_2( text2));
 
-        String text3=" Ах! Я - маленькая бяка! " +" Ах! Я - маленькая дрянь! "+"Ах! Я - маленькая бяка! " +" Ах! Я - маленькая дрянь! ";
-        printlab_5_3(text3);
+        String original_text=" Ах! Я - маленькая бяка! " +" Ах! Я - маленькая дрянь! "+"Ах! Я - маленькая бяка! " +" Ах! Я - маленькая дрянь! ";
+        String target_text="бяка";
+        String replace_text="[вырезано цензурой]";
+        printlab_5_3(original_text, target_text,replace_text);
 
-       System.out.println("Результат: "+printlab_5_4(text3,"бяка"));
+       System.out.println("Результат: "+printlab_5_4(original_text,"бяка"));
 
        String text4="Это тестовое сообщение";
        printlab_5_5(text4);

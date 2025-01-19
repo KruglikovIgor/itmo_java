@@ -8,7 +8,7 @@ public class lab_5_2 {
         System.out.println( "Слово: \t"+ str);
         StringBuilder builder = new StringBuilder(str);
         StringBuilder builder2 = builder.reverse();
-            if (builder.toString().equals(builder2.toString())) return true;
+            if (builder.toString().equalsIgnoreCase(builder2.toString())) return true;
             else return false;
     }
 }
