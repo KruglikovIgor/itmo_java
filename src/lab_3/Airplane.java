@@ -1,6 +1,6 @@
 package lab_3;
 
-public class airplane {
+public class Airplane {
     String name;
     String color;
     double weight;
@@ -17,19 +17,19 @@ public class airplane {
         System.out.println(name + " " + color + " " + weight);
     }
 
-    public airplane() {
+    public Airplane() {
     }
 
-    public airplane(String color) {
+    public Airplane(String color) {
         this.color = color;
     }
 
-    public airplane(String color, double weight) {
+    public Airplane(String color, double weight) {
         this.color = color;
         this.weight = weight;
     }
 
-    public airplane(String name,  String color, double weight) {
+    public Airplane(String name,  String color, double weight) {
         this.name = name;
         this.weight = weight;
         this.color = color;

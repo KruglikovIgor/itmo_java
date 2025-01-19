@@ -2,12 +2,12 @@ package lab_3;
 
 import java.time.LocalDate;
 
-public class house {
+public class House {
     String name;
     int floor;
     int year;
 
-    public house(String name, int floor, int year) {
+    public House(String name, int floor, int year) {
         this.name = name;
         this.floor = floor;
         this.year = year;
@@ -20,7 +20,7 @@ public class house {
     public int yearPassed(){
         return LocalDate.now().getYear()-year;
     }
-    public house() {
+    public House() {
     }
 
     public void setValue(String name, int floor, int year) {

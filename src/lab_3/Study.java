@@ -1,9 +1,9 @@
 package lab_3;
 
-public class study {
+public class Study {
     private String course;
 
-    public study(String course) {
+    public Study(String course) {
         this.course = course;
     }
 
